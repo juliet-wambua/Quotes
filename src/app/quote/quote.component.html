@@ -1,6 +1,6 @@
 <div class="container-fluid" >
-  <h1>QUOTES</h1>
-  <img src="assets/images/like-dislike.png">
+  <div class="h1"><h1>NEA QUOTES</h1>
+  </div>
 </div>
 
 <app-form (emitQuote)="addQuote($event)"></app-form>
@@ -14,7 +14,6 @@
         <p  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
         <app-details [quote]="quote"></app-details>
 
-        <!-- <hr size="50"> -->
 
 
         <button class="btn btn-primary" (click)="upvote(i)">Upvote</button>

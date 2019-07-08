@@ -3,15 +3,16 @@
   }
   
   .container-fluid{
-    /* padding: 1px; */
+    padding: 8px; 
     text-align: center;
-    background-color: blue;
+    background-color: rgb(31, 23, 104);
     font-family: 'Times New Roman', Times, serif;
     font-size: 70px;
   }
   
-  /* .line
+  .h1{color:white;}
+  .line
   {
-    height: 5px;
-  } */
+    height: 6px;
+  } 
   
