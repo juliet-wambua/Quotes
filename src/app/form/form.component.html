@@ -1,23 +1,24 @@
-<div class="container-fluid">
+<div class="container-fluid"g>
     <form (ngSubmit)="submitQuote()">
   
       <br>
   
        <div class="form-group">
        <label for="name"><strong>Person's Name:</strong></label>
-       <input type="text"  name="publisher" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quotePublisher" placeholder="Write Your Name Here:">
+       <input type="text"  name="publisher" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quotePublisher" placeholder="Name:">
       </div>
   
       <div class="form-group">
           <label for="quotes"><strong>Quotes:</strong></label>
-          <input type="text" name="quote" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quoteStr" placeholder="Add Your Quote Here:">
+          <input type="text" name="quote" class="form-control" id="exampleFormControlInput1" [(ngModel)]="quoteStr" placeholder="write your Quote here:">
       </div>
   
       <div class="form-group">
           <label for="author"><strong>Author:</strong></label>
-          <input type="text" name="author" class="form-control" id="exampleFormControlInput1"  [(ngModel)]="quoteAuthor" placeholder="Add Name of the Author Here:">
+          <input type="text" name="author" class="form-control" id="exampleFormControlInput1"  [(ngModel)]="quoteAuthor" placeholder="Author's:">
       </div>
   
-      <button type="submit" class="btn btn-primary">Post Quote</button>
+      <button type="submit" class="btn btn-primary">Post my Quote</button>
     </form>
   </div>
+  

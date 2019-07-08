@@ -7,6 +7,7 @@ import { Quote} from '../quote';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
+  
   @Output() emitQuote= new EventEmitter()
   quoteStr:string
   quotePublisher:string
@@ -20,3 +21,9 @@ export class FormComponent implements OnInit {
     this.quotePublisher=''
     this.emitQuote.emit(this.theQuote)
   }
+
+  constructor() {}
+  ngOnInit(){
+    
+  }
+}

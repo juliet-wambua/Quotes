@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { FormComponent } from './form/form.component';
 import { DetailsComponent } from './details/details.component';
-import { HighlightDirective } from './highlight-directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,8 @@ import { HighlightDirective } from './highlight-directive';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

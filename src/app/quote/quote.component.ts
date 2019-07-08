@@ -6,8 +6,8 @@ import {Quote} from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
-  quotes=[new Quote("ANC","Julius Malema","Mama give us a sign"),
-new Quote("Lupita","Black Panther","Wakanda Forever")]
+  quotes=[new Quote("-Juliet Wambua","Dag Hammarskjold","The longest journey is the journey inwards. Of him who has chosen his destiny, Who has started upon his quest for the source of his being."),
+new Quote("-Juliet Wambua","Brian Tracy","Multi-level, or network marketing is an excellent second income opportunity. Millions of people alll over America nd throughout the world are taking advantage of the opportunity multi-level marketing offers to start and build a successful business, quick and expensive. They use the foundation of network marketing business to learn vital business skills at low cost.")]
   preNum:number
   lastNum:number
   counter:number
