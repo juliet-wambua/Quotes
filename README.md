@@ -1,9 +1,10 @@
 # Quotes
 
-### By Immanuel Mugambi
+### By Juliet Wambua
 
 ## Description
-This is a simple Angular 5 application that allows you to create quotes which allows one to add, upvote, downvote or delete a quote.
+
+Quotes is an application where users can view quotes and also be able to write their own quotes as they see what they are typing at the same time then on submitting they get to see their quote updated in the quotes page.
 
 ## User Requirements
 The applications allows users to do the following:
@@ -30,6 +31,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ### Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Karma](https://juliet-wambua.github.io/Quotes/).
 
 ### Running end-to-end tests
